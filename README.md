@@ -8,6 +8,16 @@ This is gulp module to replace java script code in the postman collections. Post
     var modifyJson = require("gulp-postcol");
 ```
 
+Create a config object which has mapping for the api and hook.
+
+```javascript
+var config = {
+    "GetRepoToken": {
+        "test": "scripts/getTokenSetEnvironment.js"
+    }
+}
+```
+
 ```javascript
 gulp.task('json', function () {
     var args = checkArgs();
