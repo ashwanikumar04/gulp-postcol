@@ -1,6 +1,6 @@
 {
   "name": "gulp-postcol",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "This is gulp module to replace java script code in the postman collections",
   "main": "index.js",
   "scripts": {

@@ -28,6 +28,8 @@ gulp.task('json', function () {
 
 ```
 
+# For a working use case, have a look at [this](https://github.com/ashwanikumar04/postman-collections-scripts)
+
 # Reference
 
 [gulp-jsonminify](https://github.com/tcarlsen/gulp-jsonminify)
